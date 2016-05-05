@@ -12,7 +12,6 @@ New-NanoServerImage `
   -TargetPath .\Nano\Nano.vhdx `
   -ComputerName Nano `
   -OEMDrivers `
-  -Containers `
   -ReverseForwarders `
   -AdministratorPassword $adminPassword
 
